@@ -45,7 +45,7 @@ export function HeroSection() {
             </div>
 
             {/* CTAs */}
-            <div className="flex flex-col sm:flex-row gap-4 items-center lg:items-start">
+            <div className="flex flex-col sm:flex-row gap-4 items-center justify-center lg:justify-start lg:items-start">
               <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8 h-12 text-base"
                  onClick={() => navigate('/register')} >
                 Get Your Free Digest
